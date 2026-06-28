@@ -8,10 +8,3 @@ application:
     - 8188
     vars:
       CLI_ARGS: ""
-    volumes:
-    - name: comfyui-root
-      mountPath: /root
-      size: 5Gi
-    - name: comfyui-runner
-      mountPath: /home/runner
-      size: 5Gi
