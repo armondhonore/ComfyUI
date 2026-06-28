@@ -2,7 +2,7 @@ application:
   name: comfyui
   pods:
   - name: app
-    image: yanwk/comfyui-boot:nightly
+    image: mirror.gcr.io/yanwk/comfyui-boot:nightly
     path: /
     servicePorts:
     - 8188
