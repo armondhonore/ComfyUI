@@ -7,4 +7,4 @@ application:
     servicePorts:
     - 8188
     vars:
-      CLI_ARGS: ""
+      CLI_ARGS: "--cpu"
